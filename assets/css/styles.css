@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: "Sen","Poppins",sans-serif;
+}
+/* ========== Common ============= */
+.content{
+    width: 1170px;
+    max-width: calc(100% - 35px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =========== Navigation ============= */
+.fixed-header{
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+}
