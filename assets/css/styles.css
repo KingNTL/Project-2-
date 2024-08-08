@@ -15,15 +15,215 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
+a{
+    text-decoration: none;
+}
+.btn{
+    display: inline-block;
+    color: #FFF;
+    padding: 11px 41px;
+    min-width: 144px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    border-radius: 25px;
+    background: #171100;
+}
 /* =========== Navigation ============= */
 .fixed-header{
-    
+    padding-top: 3.6rem;
+    padding-bottom: 6.4rem;
+    background: #FFFCF4;
 }
 .navbar{
     display: flex;
     align-items: center;
+    padding: 12px 0;
 }
 .navbar ul{
     display: flex;
+    margin-left: 510px;
+}
+.navbar ul a{
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #5f5b53;
+}
+.navbar ul li a{
+    margin-right: 42px;
+}
+.navbar .action{
+    margin-left: auto;
+}
+.navbar ul .home{
+    position: relative;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+.navbar ul .home::after{
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background-color: #171100;
+    border-radius: 15px;
+}
+/* =========== Hero =============== */
+.hero-wrap{
+    background-color: #FFFCF4;
+    padding-bottom: 6.5rem;
+}
+.hero{
+    display: flex;
+    
+}
+.img-hero{
+    margin-right: 23rem;
+}
+.hero .img-hero .image{
+    position: relative;
+    height: 68.5rem;
+    width: 47rem;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.card{
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    width: 270px;
+    height: 244px;
+    background-color: #FFF;
+    border-radius: 1.2rem;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.card .eclipse .icon{
+    width: 24px;
+    height: 24px; 
+}
+.card .row .eclipse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-right: 1.6rem;
+}
+.card .row:first-child .eclipse{
+    border-radius: 50%;
+    background: #FFF9E8;
+}
+.card .row:nth-child(2) .eclipse{
+    border-radius: 50%;
+    background: #FCEFFF;
+}
+.card .row:last-child .eclipse{
+    border-radius: 50%;
+    background: #EBEAFF;
+}
+.card .row{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.card .info .course{
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+.card .info .value{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3rem; /* 166.667% */
+}
+.hero .info .title{
+    width: 47rem;
+    color: #171100;
+    font-family: Sen;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 6.8rem; /* 117.241% */
+    letter-spacing: -0.116rem;
+    margin-bottom: 2.2rem;
+}
+.hero .info .desc{
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem; /* 166.667% */
+    margin-bottom: 5rem;
+}
+.hero-cta{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem; /* 166.667% */
+    
+    border-radius: 3.2rem;
+    background: #FFB900;
+}
+.hero .info .action{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4.8rem;
+}
+.hero .info .action .video{
+    display: flex;
+    align-items: center;
+    margin-left: 2.5rem;
+}
+.hero .info .action .watch{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem; /* 166.667% */
+}
+.info .subtitle{
+    color: #5F5B53;
+    font-family: Poppins;
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem; /* 166.667% */
+}
+.info .stats{
+    display: flex;
+}
+.info .stats .number{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 4.4rem;
+    font-weight: 600;
+    line-height: 5.4rem; /* 122.727% */
+}
+.info .stats p{
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.info .stats .column{
+    margin-right: 2.8rem;
 }
