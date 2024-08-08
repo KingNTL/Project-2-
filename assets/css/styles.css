@@ -3,6 +3,7 @@
 }
 html{
     font-size: 62.5%;
+    height: 3000px;
 }
 body{
     font-size: 1.6rem;
@@ -30,6 +31,18 @@ a{
     line-height: 2.8rem;
     border-radius: 25px;
     background: #171100;
+}
+.btn:hover{
+    min-width: 144px;
+    padding: 11px 41px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem; /* 185.714% */
+    border-radius: 2.5rem;
+    background: #FFB900;
 }
 /* =========== Navigation ============= */
 .fixed-header{
@@ -220,10 +233,82 @@ a{
     color: #5F5B53;
     font-family: Poppins;
     font-size: 1.8rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 3rem;
 }
 .info .stats .column{
     margin-right: 2.8rem;
+}
+/* ============ Feature ============= */
+.feature{
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.feature .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.feature .intro .title{
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.8rem; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+.feature .intro .desc{
+    width: 45.8rem;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem; /* 166.667% */
+}
+.feature .list{
+    margin-top: 5.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.feature .list .course{
+    margin-right: 3rem;
+}
+.feature .list .course .thumb{
+    height: 27.8rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+.course .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course .row .rate{
+    display: flex;
+    align-items: center;
+}
+.course .row .rate .number{
+    color: #FEA31B;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem; /* 175% */
+}
+.course .row .caption{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem; /* 166.667% */
+    margin-bottom: 6px;
+    margin-top: 1.6rem;
+}
+
+.course .body .desc{
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+    margin-bottom: 2.2rem;
 }
