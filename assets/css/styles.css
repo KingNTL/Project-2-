@@ -312,3 +312,56 @@ a{
     line-height: 2.6rem; /* 185.714% */
     margin-bottom: 2.2rem;
 }
+.course .body{
+    padding: 1.6rem 2.2rem 2.2rem 2.2rem;
+    border-radius: 1.2rem;
+    background: #FFF;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+/* =========== Review ============== */
+.feedback{
+    padding: 9.6rem 13.5rem;
+    background: #2E2100;
+}
+.feedback .user .avatar{
+    height: 7.2rem;
+    width: 7.2rem;
+    object-fit: cover;
+    clip-path: circle();
+}
+.feedback .assess{
+    display: flex;
+}
+.feedback .user{
+    margin-right: 27.1rem;
+}
+.assess .user .name{
+    min-width: 13rem;
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.4rem; /* 141.667% */
+}
+.assess .user .desc{
+    min-width: 15.9rem;
+    color: #BFBCB2; 
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+    margin-bottom: 2.8rem;
+}
+.assess .review p{
+    min-width: 74rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 4rem; /* 153.846% */
+}
+.assess .review .vector{
+    position: relative;
+    left: -30px;
+}
