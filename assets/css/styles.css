@@ -26,7 +26,7 @@ a{
     min-width: 144px;
     text-align: center;
     font-family: Poppins;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.8rem;
     border-radius: 25px;
@@ -39,7 +39,7 @@ a{
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.8rem; /* 185.714% */
     border-radius: 25px;
@@ -200,15 +200,15 @@ a{
 }
 .hero-cta{
     color: #FFF;
-    text-align: center;
     font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 3rem; /* 166.667% */
     
     border-radius: 3.2rem;
-    background: #FFB900;
+    background: #171100;
 }
+
 .hero .info .action{
     display: flex;
     align-items: center;
@@ -424,6 +424,19 @@ a{
 }
 .feature .info .btn{
     margin-top: 3.2rem;
+    background: #171100;
+}
+.feature .info .btn:hover{
+    display:inline-block;
+    min-width: 144px;
+    padding: 11px 41px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem; /* 185.714% */
+    border-radius: 25px;
     background: #FFB900;
 }
 /*============ Feature 2 ==============*/
@@ -453,6 +466,19 @@ a{
 }
 .join .info .btn{
     border-radius: 26px;
+    background: #171100;
+}
+.join .info .btn:hover{
+    display:inline-block;
+    min-width: 144px;
+    padding: 11px 41px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem; /* 185.714% */
+    border-radius: 25px;
     background: #FFB900;
 }
 .join .info{
@@ -547,6 +573,19 @@ a{
     background: #FFB900;
     margin-left: 20px;
     margin-top: 12px;
+}
+.blog .item .body .btn:hover{
+    display:inline-block;
+    padding: 12px 21px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.6rem; /* 185.714% */
+    border-radius: 25px;
+    background: #FFB900;
+    opacity: 0.8;
 }
 .dot{
     display: flex;
