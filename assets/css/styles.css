@@ -56,8 +56,10 @@ a{
 /* =========== Navigation ============= */
 .fixed-header{
     padding-top: 3.6rem;
-    padding-bottom: 6.4rem;
     background: #FFFCF4;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
 }
 .navbar{
     display: flex;
@@ -103,12 +105,16 @@ a{
 }
 /* =========== Hero =============== */
 .hero-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #FFFCF4;
     padding-bottom: 6.5rem;
 }
 .hero{
     display: flex;
-    
+    padding-top: 75px;
 }
 .img-hero{
     margin-right: 23rem;
@@ -432,7 +438,7 @@ a{
     color: #171100;
     /* font-family: Sen; */
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 4.8rem; /* 126.316% */
     letter-spacing: -0.076rem;
     margin-bottom: 16px;
@@ -547,4 +553,91 @@ a{
     margin-top: 38px;
     margin-left: auto;
     margin-right: auto;
+}
+/* =========== Footer ================ */
+.footer{
+    background: #2E2100;
+    padding-top: 96px;
+    padding-bottom: 28px;
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .column .logo{
+    position: relative;
+    color: #FFF;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.4rem; /* 141.667% */
+    margin-bottom: 18px;
+}
+.footer .column .logo::after{
+    content: "";
+    position: absolute;
+    top:20px;
+    right: 187px;
+    display: inline-block;
+    background-color: #FFB900;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.footer .column .desc{
+    width: 267px;
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+    margin-bottom: 18px;
+}
+.footer .social a{
+    color: white;
+    margin-right: 10px;
+}
+.footer .column .heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.8rem; /* 175% */
+    margin-bottom: 14px;
+}
+.footer .column .seperate{
+    background: #59554B;
+    width: 130px;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 28px;
+}
+.footer .column .item{
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+    margin-bottom: 12px;
+}
+.footer .column .item .strong{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.6rem; /* 185.714% */
+}
+.footer .copyright .seperate{
+    width: 1170px;
+    height: 1px;
+    background: #59554B;
+    margin-top: 26px;
+}
+.footer .copyright p{
+    color: #807D74;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
 }
