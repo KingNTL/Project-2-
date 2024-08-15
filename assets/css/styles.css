@@ -4,6 +4,7 @@
 html{
     font-size: 62.5%;
     height: 3000px;
+    scroll-behavior: smooth;
 }
 body{
     font-size: 1.6rem;
@@ -33,16 +34,7 @@ a{
     background: #171100;
 }
 .btn:hover{
-    display:inline-block;
-    min-width: 144px;
-    padding: 11px 41px;
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 2.8rem; /* 185.714% */
-    border-radius: 25px;
+    cursor: pointer;
     background: #FFB900;
 }
 .seperate{
@@ -55,7 +47,7 @@ a{
 }
 /* =========== Navigation ============= */
 .fixed-header{
-    padding-top: 3.6rem;
+    padding-top: 3rem;
     background: #FFFCF4;
     position: sticky;
     top: -26px;
@@ -77,6 +69,10 @@ a{
     line-height: 28px;
     text-align: center;
     color: #5f5b53;
+}
+.navbar ul li a:hover{
+    color: #171100;
+    text-shadow: 1px 0 0 currentColor;
 }
 .navbar ul li a{
     margin-right: 42px;
@@ -129,8 +125,8 @@ a{
 .card{
     position: absolute;
     left: 35%;
-    top: 65%;
-    width: 270px;
+    top: 57%;
+    width: 270px; 
     height: 244px;
     background-color: #FFF;
     border-radius: 1.2rem;
@@ -183,9 +179,9 @@ a{
 .hero .info .title{
     width: 47rem;
     color: #171100;
-    font-family: Sen;
+    font-family:Sen;
     font-size: 5.8rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 6.8rem; /* 117.241% */
     letter-spacing: -0.116rem;
     margin-bottom: 2.2rem;
